@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/giftshop/static/css/main.676bfa92.css",
+    "main.js": "/giftshop/static/js/main.d51f02f7.js",
+    "index.html": "/giftshop/index.html",
+    "main.676bfa92.css.map": "/giftshop/static/css/main.676bfa92.css.map",
+    "main.d51f02f7.js.map": "/giftshop/static/js/main.d51f02f7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.676bfa92.css",
+    "static/js/main.d51f02f7.js"
+  ]
+}
