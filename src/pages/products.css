@@ -1,0 +1,134 @@
+.products-page {
+  background: url('https://plus.unsplash.com/premium_photo-1661757711576-ee8f6e1a1629?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 40px;
+}
+
+/* Products Header */
+.products-header {
+  display: flex;
+  justify-content: center;   /* Centered filters */
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+/* Individual Filter Box */
+.filter-box {
+  background: #fff;   /* White background so dropdown is visible */
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.filter-box label {
+  font-weight: 600;
+  color: #333;
+}
+
+.filter-box select {
+  padding: 6px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #fff;
+  cursor: pointer;
+}
+
+/* Product Grid */
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+/* Product Card */
+.product-card {
+  width: 250px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.product-details {
+  padding: 15px;
+  text-align: center;
+}
+
+.product-details h3 {
+  margin: 10px 0 5px;
+  font-size: 18px;
+  color: #333;
+}
+
+.desc {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.category {
+  font-size: 13px;
+  color: #888;
+}
+
+.price {
+  font-size: 16px;
+  color: #e91e63;
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+.add-to-cart {
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.add-to-cart:hover {
+  background-color: #d81b60;
+}
+
+/* Page Title */
+.products-heading {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 2.2rem;
+  font-family: 'Dancing Script', cursive;
+  color: #e91e63;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Favorite Button */
+.fav-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.fav-btn.active {
+  color: red;
+}

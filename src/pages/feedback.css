@@ -1,0 +1,76 @@
+.feedback-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+
+  /* Background image */
+  background: url("https://images.unsplash.com/photo-1608755727748-dfa2e44f255b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0") no-repeat center center;
+  background-size: cover;
+
+  min-height: 100vh; /* full height */
+}
+
+.feedback-container {
+  background: rgba(255, 255, 255, 0.9); /* slightly transparent white box */
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  width: 400px;
+  text-align: center;
+}
+
+.feedback-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.feedback-form label {
+  text-align: left;
+  font-weight: 500;
+  color: #444;
+}
+
+.feedback-form input,
+.feedback-form select,
+.feedback-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  width: 100%;
+}
+
+.feedback-form textarea {
+  resize: none;
+  min-height: 80px;
+}
+
+.submit-feedback-btn {
+  background: #ff4081;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.submit-feedback-btn:hover {
+  background: #e73370;
+}
+
+.continue-shopping-link {
+  display: inline-block;
+  margin-top: 20px;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
